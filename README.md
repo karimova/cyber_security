@@ -2,36 +2,38 @@
 
 ## Problem Statement:
 
-Book-My-Show will enable the ads on their website, but they are also very cautious about their user privacy and information who visit their website. Some ads URL could contain a malicious link that can trick any recipient and lead to a malware installation, freezing the system as part of a ransomware attack or revealing sensitive information. Book-My-Show now wants to analyze that whether the particular URL is prone to phishing (malicious) or not.
+Book-My-Show aims to enable ads on their website while prioritizing user privacy and protecting their information. However, they are concerned about the potential presence of malicious URLs in ads that can lead to harmful consequences such as malware installation, system freezing, or data breach. Book-My-Show wants to analyze whether a given URL is prone to phishing attacks or not.
 
 ## Dataset Details: 
 
-The input dataset contains an 11k sample corresponding to the 11k URL. Each sample contains 32 features that give a different and unique description of URL ranging from -1,0,1.
+The input dataset consists of 11k URL samples. Each sample is described by 32 features, ranging from -1, 0, to 1.
 
- 1: Phishing
- 0: Suspicious
- 1: Legitimate
+- 1: Phishing
+- 0: Suspicious
+- 1: Legitimate
 
-The sample could be either legitimate or phishing.
+The samples can be classified as either legitimate or phishing URLs.
 
-## Step 1
+## Project Task: Week 1
 
 ### Exploratory Data Analysis:
 
-Each sample has 32 features ranging from -1,0,1. Explore the data using histogram, heatmaps. 
-Determine the number of samples present in the data, unique elements in all the features. 
-Check if there is any null value in any features. 
+Perform exploratory data analysis on the dataset. Analyze the distribution of features using histograms and heatmaps. 
 
-## Step 2
+- Determine the number of samples in the dataset and identify unique elements in each feature. 
 
-### Correlation of features and feature selection:
+- Check for the presence of any null values in the features. 
 
-Next, we have to find if there are any correlated features present in the data. Remove the feature which might be correlated with some threshold.
+## Project Task: Week 2
 
-## Step 3 and 4
+### Correlation of Features and Feature Selection:
+
+Explore the correlation between features and identify any correlated features in the dataset. Remove features that exhibit high correlation with a predefined threshold.
+
+## Project Task: Week 3 and 4
 
 ### Building Classification Model: 
 
-Finally, build a robust classification system that classifies whether the URL sample is a phishing site or not.
+Build a robust classification system to classify whether a given URL is a phishing site or not.
 
-Build classification models using a binary classifier to detect malicious or phishing URLs.
+- Develop classification models using binary classifiers to detect malicious or phishing URLs.
