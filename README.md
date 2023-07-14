@@ -14,7 +14,7 @@ The input dataset consists of 11k URL samples. Each sample is described by 32 fe
 
 The samples can be classified as either legitimate or phishing URLs.
 
-## Project Task: Week 1
+## Step 1
 
 ### Exploratory Data Analysis:
 
@@ -24,13 +24,13 @@ Perform exploratory data analysis on the dataset. Analyze the distribution of fe
 
 - Check for the presence of any null values in the features. 
 
-## Project Task: Week 2
+## Step 2
 
 ### Correlation of Features and Feature Selection:
 
 Explore the correlation between features and identify any correlated features in the dataset. Remove features that exhibit high correlation with a predefined threshold.
 
-## Project Task: Week 3 and 4
+## Step 3 and 4
 
 ### Building Classification Model: 
 
