@@ -4,7 +4,7 @@
 
 ## Problem Statement:
 
-Book-My-Show aims to enable ads on their website while prioritizing user privacy and protecting their information. However, they are concerned about the potential presence of malicious URLs in ads that can lead to harmful consequences such as malware installation, system freezing, or data breach. Book-My-Show wants to analyze whether a given URL is prone to phishing attacks or not.
+Book-My-Show is dedicated to enabling advertisements on their website while upholding user privacy and safeguarding their sensitive information. However, they are keenly aware of the potential risks associated with malicious URLs that may be present in these ads. These malicious URLs can pose threats such as malware installation, system freezing, or unauthorized access to user data. To ensure a secure browsing experience for their users, Book-My-Show aims to analyze URLs and determine whether they are susceptible to phishing attacks.
 
 ## Dataset Details: 
 
