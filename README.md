@@ -14,7 +14,7 @@ The input dataset contains an 11k sample corresponding to the 11k URL. Each samp
 
 The sample could be either legitimate or phishing.
 
-## Project Task: Week 1
+## Step 1
 
 ### Exploratory Data Analysis:
 
@@ -22,13 +22,13 @@ Each sample has 32 features ranging from -1,0,1. Explore the data using histogra
 Determine the number of samples present in the data, unique elements in all the features. 
 Check if there is any null value in any features. 
 
-## Project Task: Week 2
+## Step 2
 
 ### Correlation of features and feature selection:
 
 Next, we have to find if there are any correlated features present in the data. Remove the feature which might be correlated with some threshold.
 
-## Project Task: Week 3 and 4
+## Step 3 and 4
 
 ### Building Classification Model: 
 
